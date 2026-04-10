@@ -64,8 +64,7 @@ class MilitarySymV:
         feat.setAttribute('svg_path',    self.active_sym['svg'])
         layer.addFeature(feat)
         layer.commitChanges()
-        from .symbol_manager import SymbolManager
-        SymbolManager(self.plugin_dir).apply_rule_renderer(layer)
+        
         if self.dock_widget:
             self.dock_widget.status_label.setText(f'✅ Placed: {self.active_unit}')
 
@@ -85,6 +84,8 @@ class MilitarySymV:
         ])
         layer.updateFields()
         QgsProject.instance().addMapLayer(layer)
+        from .symbol_manager import SymbolManager
+        SymbolManager(self.plugin_dir).apply_rule_renderer(layer)
         return layer
 
     def unload(self):
