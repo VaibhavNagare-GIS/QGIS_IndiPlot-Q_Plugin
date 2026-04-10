@@ -112,12 +112,6 @@ No additional Python packages required. All dependencies are bundled with QGIS.
 
 5. The MilitarySym-V toolbar icon will appear. Click it to open the dock panel.
 
-### Method 2 - Plugin Reloader (For Developers)
-
-1. Install the **Plugin Reloader** plugin from the QGIS Plugin Manager
-2. Set Plugin Reloader target to `MilitarySym_V`
-3. Press the Reload button after any code changes - no QGIS restart needed
-
 ---
 
 ## Usage
