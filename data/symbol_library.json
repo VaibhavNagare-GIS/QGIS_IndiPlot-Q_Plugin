@@ -1,0 +1,18 @@
+{
+  "symbols": [
+    {"id": "f_inf",  "name": "Friendly Infantry",  "category": "Friendly", "affiliation": "friendly", "svg": "symbols/friendly/infantry.svg"},
+    {"id": "f_arm",  "name": "Friendly Armour",    "category": "Friendly", "affiliation": "friendly", "svg": "symbols/friendly/armour.svg"},
+    {"id": "f_eng",  "name": "Friendly Engineer",  "category": "Friendly", "affiliation": "friendly", "svg": "symbols/friendly/engineer.svg"},
+    {"id": "f_art",  "name": "Friendly Artillery", "category": "Friendly", "affiliation": "friendly", "svg": "symbols/friendly/artillery.svg"},
+    {"id": "f_log",  "name": "Friendly Logistics", "category": "Friendly", "affiliation": "friendly", "svg": "symbols/friendly/logistics.svg"},
+    {"id": "f_hq",   "name": "Friendly Headquarter",        "category": "Friendly", "affiliation": "friendly", "svg": "symbols/friendly/headquarter.svg"},
+    {"id": "h_inf",  "name": "Hostile Infantry",   "category": "Hostile",  "affiliation": "hostile",  "svg": "symbols/hostile/infantry.svg"},
+    {"id": "h_arm",  "name": "Hostile Armour",     "category": "Hostile",  "affiliation": "hostile",  "svg": "symbols/hostile/armour.svg"},
+    {"id": "h_unk",  "name": "Hostile Unknown",    "category": "Hostile",  "affiliation": "hostile",  "svg": "symbols/hostile/unknown.svg"},
+    {"id": "n_unit", "name": "Neutral Unit",       "category": "Neutral",  "affiliation": "neutral",  "svg": "symbols/neutral/unit.svg"},
+    {"id": "s_mine", "name": "Minefield",          "category": "Special",  "affiliation": "special",  "svg": "symbols/special/minefield.svg"},
+    {"id": "s_obs",  "name": "Obstacle",           "category": "Special",  "affiliation": "special",  "svg": "symbols/special/obstacle.svg"},
+    {"id": "s_bri",  "name": "Bridge",             "category": "Special",  "affiliation": "special",  "svg": "symbols/special/bridge.svg"},
+    {"id": "s_chk",  "name": "Checkpoint",         "category": "Special",  "affiliation": "special",  "svg": "symbols/special/checkpoint.svg"}
+  ]
+}

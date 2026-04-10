@@ -1,0 +1,25 @@
+[general]
+name=MilitarySym-V
+qgisMinimumVersion=3.34
+qgisMaximumVersion=3.99
+description=NATO APP-6D Military Symbology Placement Tool for Defence GIS
+version=1.0.0
+author=Vaibhav Shivaji Nagare
+email=vaibhavnagare20@gmail.com
+
+about=MilitarySym-V lets you place, label, and export NATO APP-6D compliant military symbols directly on any QGIS map canvas. Select from 14 symbols across Friendly, Hostile, Neutral, and Special categories. Assign unit name, size (Team to Division), and operational status (Present, Planned, Suspected, Destroyed). Export your symbol layer to KML, GeoJSON, or Shapefile. Open the QGIS Print Layout for PDF output. Works with any basemap including Google Satellite and OpenStreetMap. All coordinate transforms are handled automatically. No internet connection required.
+
+tracker=https://github.com/VaibhavNagare-GIS/militarysym-v_plugin/issues
+repository=https://github.com/VaibhavNagare-GIS/militarysym-v_plugin
+homepage=https://github.com/VaibhavNagare-GIS/militarysym-v_plugin
+
+tags=military, defence, NATO, symbology, army, APP-6D, tactical, GIS, symbols, planning, KML, export
+
+category=Vector
+icon=icons/plugin_icon.png
+
+experimental=False
+deprecated=False
+server=False
+
+changelog=1.0.0 - Initial release. 14 NATO APP-6D symbols. Click-to-place on map canvas. Export to KML, GeoJSON, Shapefile. Rule-based SVG renderer. CRS transform support.
