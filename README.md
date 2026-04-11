@@ -151,7 +151,7 @@ Internal symbol modifiers (crosses, ellipses, triangles) identify the functional
 - The `MilitarySym-V Symbols` layer is a **memory layer** - it is lost when QGIS closes unless you save it to a file via Layer → Save As before closing
 - Tactical graphics (lines, boundaries, phase lines) are **not yet implemented** - v1.0.0 supports point symbols only
 - The plugin requires the **map canvas CRS** to be set before placing symbols by using a basemap (Google, OSM, Esri) sets this automatically
-> (Note:) Plugin is sill under development and waiting for QGIS approvel.
+> **Note:** Plugin is sill under development and waiting for QGIS approvel.
 ---
 
 ## Contributing
